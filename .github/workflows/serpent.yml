@@ -1,0 +1,41 @@
+name: serpent
+
+# Regenerates the contribution "serpent" (profile/serpent.svg) from the live
+# contribution graph, themed to match the grimoire palette. Until the first
+# run, the README shows the hand-authored placeholder committed to the repo.
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # daily at 03:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "profile/serpent.svg"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: serpent
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate serpent
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/serpent.svg?palette=github-dark&color_snake=#ff4d4f&color_dots=#140d0f,#3a2328,#6e3a3c,#c0392f,#ff4d4f
+
+      - name: Commit updated serpent
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(profile): regenerate contribution serpent"
+          file_pattern: profile/serpent.svg
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com

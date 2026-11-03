@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 125" width="420" height="125" role="img" aria-label="honeypot-framework repository card">
+  <defs>
+    <linearGradient id="spine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff4d4f"/><stop offset="100%" stop-color="#c0392f"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="418" height="123" rx="10" fill="#140d0f" stroke="#3a2328" stroke-width="1.5"/>
+  <rect x="1" y="1" width="4" height="123" rx="2" fill="url(#spine)" opacity=".75"/>
+  <path transform="translate(22,18) scale(1)" fill="#d9b45a" d="M0 2.5A1.5 1.5 0 0 1 1.5 1h4A2.5 2.5 0 0 1 8 2.5 2.5 2.5 0 0 1 10.5 1h4A1.5 1.5 0 0 1 16 2.5v10a1.5 1.5 0 0 1-1.5 1.5h-4A2.5 2.5 0 0 0 8 15a2.5 2.5 0 0 0-2.5-1H1.5A1.5 1.5 0 0 1 0 12.5v-10zM7 3.5A1.5 1.5 0 0 0 5.5 2h-4a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h4c.6 0 1.1.17 1.5.46V3.5z"/>
+  <text x="46" y="30" font-family="Georgia,'Times New Roman',serif" font-weight="bold" font-size="16" fill="#d9b45a">honeypot-framework</text>
+  <rect x="330" y="16" width="74" height="18" rx="9" fill="none" stroke="#3a2328"/>
+  <text x="367" y="28.5" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" letter-spacing="1.5" fill="#6b625d">PINNED</text>
+
+  <text x="22" y="60" font-family="Georgia,serif" font-size="12.5" fill="#9f928a">Deployable cloud honeypots with attacker telemetry,</text>
+  <text x="22" y="78" font-family="Georgia,serif" font-size="12.5" fill="#9f928a">alerting &amp; Terraform-provisioned decoy infrastructure.</text>
+
+  <g font-family="'Courier New',monospace" font-size="11.5" fill="#9f928a">
+    <circle cx="27" cy="101" r="5" fill="#d9b45a"/>
+    <text x="38" y="105">Python</text>
+    <path transform="translate(120,96)" fill="#9f928a" d="M8 .25l2.3 4.9 5.2.6-3.9 3.6 1 5.4L8 12.6 3.4 14.4l1-5.4L.5 5.8l5.2-.6L8 .25z"/>
+    <text x="140" y="105">41</text>
+    <path transform="translate(178,96)" fill="#9f928a" d="M5 3.25a2.25 2.25 0 1 1-3 2.12v5.26a2.25 2.25 0 1 1-2 0V5.37A2.25 2.25 0 1 1 5 3.25zm6.75-.25a2.25 2.25 0 0 1 2.12 3H14v3a4 4 0 0 1-4 4H8.5v1.37a2.25 2.25 0 1 1-2 0V11H10a2 2 0 0 0 2-2V6h-.13A2.25 2.25 0 0 1 11.75 3z"/>
+    <text x="198" y="105">9</text>
+  </g>
+</svg>

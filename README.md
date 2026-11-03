@@ -1,21 +1,59 @@
+<p align="center">
+  <img src="./profile/banner.svg" width="100%" alt="The Grimoire of Moksh — a 2nd-year summoner of cybersecurity, machine learning and arcane algorithms." />
+</p>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/notmytypebruhh) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/moksh-vatsa-a34885404) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vatsamoksh@gmail.com) 
+<p align="center">
+  <a href="https://linkedin.com/in/moksh-vatsa-a34885404"><img src="https://img.shields.io/badge/LinkedIn-140D0F?style=for-the-badge&logo=linkedin&logoColor=FF4D4F" alt="LinkedIn" /></a>
+  <a href="mailto:vatsamoksh@gmail.com"><img src="https://img.shields.io/badge/Email-140D0F?style=for-the-badge&logo=gmail&logoColor=FF4D4F" alt="Email" /></a>
+  <a href="https://instagram.com/notmytypebruhh"><img src="https://img.shields.io/badge/Instagram-140D0F?style=for-the-badge&logo=instagram&logoColor=FF4D4F" alt="Instagram" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Sickwoman&label=SOULS%20SEEN&color=ff4d4f&style=for-the-badge" alt="Souls seen" />
+</p>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Sickwoman&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=Sickwoman&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Sickwoman&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+## § I · whoami
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Sickwoman&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+```python
+#  grimoire://moksh — page 1 of ∞
+class Moksh(Hacker):
+    year     = "2nd-year student"
+    affinity = ["cybersecurity", "machine learning", "DSA in Python"]
+    spells   = ["cloud honeypots", "network recon", "MAC evasion"]
+    training = ["Rust"]
+    hobby    = "surfing the internet"
+```
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Sickwoman&limit=5&theme=dark&combine_all_yearly_contributions=true)
+## § II · spellbook
 
----
-[![](https://komarev.com/ghpvc/?username=Sickwoman&icon=0&color=0)](https://visitcount.itsvg.in)
+<p align="center">
+  <a href="https://github.com/Sickwoman/honeypot-framework"><img src="./profile/pin-honeypot-framework.svg" width="49%" alt="honeypot-framework" /></a>
+  <a href="https://github.com/Sickwoman/mac-changer-device-repo"><img src="./profile/pin-mac-changer-device-repo.svg" width="49%" alt="mac-changer-device-repo" /></a>
+  <a href="https://github.com/Sickwoman/network_scanner"><img src="./profile/pin-network_scanner.svg" width="49%" alt="network_scanner" /></a>
+  <a href="https://github.com/Sickwoman/GeoDnsScanner"><img src="./profile/pin-GeoDnsScanner.svg" width="49%" alt="GeoDnsScanner" /></a>
+</p>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## § III · arsenal
+
+| | |
+|:--|:--|
+| **TONGUES** | ![Python](https://img.shields.io/badge/Python-140D0F?style=flat-square&logo=python&logoColor=D9B45A) ![C](https://img.shields.io/badge/C-140D0F?style=flat-square&logo=c&logoColor=D9B45A) ![Go](https://img.shields.io/badge/Go-140D0F?style=flat-square&logo=go&logoColor=D9B45A) ![TypeScript](https://img.shields.io/badge/TypeScript-140D0F?style=flat-square&logo=typescript&logoColor=D9B45A) ![Bash](https://img.shields.io/badge/Bash-140D0F?style=flat-square&logo=gnubash&logoColor=D9B45A) ![HTML5](https://img.shields.io/badge/HTML5-140D0F?style=flat-square&logo=html5&logoColor=D9B45A) ![Rust](https://img.shields.io/badge/Rust%20(training)-FF4D4F?style=flat-square&logo=rust&logoColor=140D0F) |
+| **SUMMONS** | ![Terraform](https://img.shields.io/badge/Terraform-140D0F?style=flat-square&logo=terraform&logoColor=D9B45A) ![AWS](https://img.shields.io/badge/AWS-140D0F?style=flat-square&logo=amazonwebservices&logoColor=D9B45A) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-140D0F?style=flat-square&logo=googlecloud&logoColor=D9B45A) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-140D0F?style=flat-square&logo=githubactions&logoColor=D9B45A) ![Git](https://img.shields.io/badge/Git-140D0F?style=flat-square&logo=git&logoColor=D9B45A) |
+| **DIVINATION** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-140D0F?style=flat-square&logo=tensorflow&logoColor=D9B45A) ![Keras](https://img.shields.io/badge/Keras-140D0F?style=flat-square&logo=keras&logoColor=D9B45A) ![scikit-learn](https://img.shields.io/badge/scikit--learn-140D0F?style=flat-square&logo=scikitlearn&logoColor=D9B45A) ![NumPy](https://img.shields.io/badge/NumPy-140D0F?style=flat-square&logo=numpy&logoColor=D9B45A) ![Matplotlib](https://img.shields.io/badge/Matplotlib-140D0F?style=flat-square&logoColor=D9B45A) |
+| **CONSTRUCTS** | ![React](https://img.shields.io/badge/React-140D0F?style=flat-square&logo=react&logoColor=D9B45A) ![Next.js](https://img.shields.io/badge/Next.js-140D0F?style=flat-square&logo=nextdotjs&logoColor=D9B45A) ![Node.js](https://img.shields.io/badge/Node.js-140D0F?style=flat-square&logo=nodedotjs&logoColor=D9B45A) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-140D0F?style=flat-square&logo=postgresql&logoColor=D9B45A) ![MySQL](https://img.shields.io/badge/MySQL-140D0F?style=flat-square&logo=mysql&logoColor=D9B45A) ![Supabase](https://img.shields.io/badge/Supabase-140D0F?style=flat-square&logo=supabase&logoColor=D9B45A) |
+
+## § IV · battle log
+
+<p align="center">
+  <img height="175" alt="Arcane record" src="https://github-readme-stats.vercel.app/api?username=Sickwoman&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&rank_icon=github&title_color=d9b45a&icon_color=ff4d4f&text_color=ece2d4&bg_color=140d0f&border_color=3a2328" />
+  <img height="175" alt="Most used tongues" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sickwoman&layout=compact&langs_count=8&hide_border=false&title_color=d9b45a&text_color=ece2d4&bg_color=140d0f&border_color=3a2328" />
+</p>
+
+<p align="center">
+  <img width="100%" alt="A serpent devouring the contribution graph" src="./profile/serpent.svg" />
+</p>
+
+<p align="center"><sub><b>— THE GRIMOIRE CLOSES —</b><br/><code>&gt; session terminated · thanks for stopping by</code></sub></p>
+
+<!--
+  The serpent above is regenerated from the live contribution graph by
+  .github/workflows/serpent.yml (daily + on push). Until the first run,
+  it shows a hand-authored placeholder serpent committed to profile/serpent.svg.
+-->
