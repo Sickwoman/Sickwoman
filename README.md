@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="profile/header.svg" width="860" alt="MOKSH VATSA · honeypots // network recon // open-source security // ML research" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/breakdown-hero-dark.svg">
+  <img alt="Moksh Vatsa: I build traps for attackers and the tools that watch them. A visual-effects shot breakdown: a city with one tower for every day of the last year, as tall as that day was busy, shown as wireframe, clay, normals and depth passes and then the final sunset beauty pass, with the name as the title. 369 contributions on 101 active days." src="./assets/breakdown-hero-light.svg" width="100%">
+</picture>
 
 <br/>
 
@@ -102,6 +105,13 @@ Co-designed the end-to-end N-tier specification for a **UK-regulated remittance 
 ---
 
 ## Projects
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/breakdown-script-dark.svg">
+  <img alt="Comp script: the last year is the background plate, frames 1001 to 1365, with honeypot-framework, MPC-node-threat-detection, antibiotic-resistance-ai, soc-forensics-worklet-program merged over it, then graded, written out as v101 and viewed. Render log: 369 contributions on 101 active days, longest streak 22 days, longest break 60 days, peak day October 25 with 16, 7 followers, 3 stars, on GitHub since 2025. Languages: Python 47%, Jupyter Notebook 45%, TypeScript 3%, Shell 2%, CSS 1%, HCL 1%." src="./assets/breakdown-script-light.svg" width="100%">
+</picture>
+</p>
 
 <table>
 <tr>
@@ -211,7 +221,10 @@ $ tree ~/arsenal
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=Sickwoman&hide_border=true&background=0D1024&stroke=2B3163&ring=A78BFA&fire=A78BFA&currStreakNum=60A5FA&sideNums=60A5FA&currStreakLabel=A78BFA&sideLabels=E2E8F7&dates=8B95C9" alt="GitHub contribution streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/breakdown-end-dark.svg">
+  <img alt="End card: an on-set lighting reference kit, with a grey ball, a chrome ball and a colour chart. Thanks for watching." src="./assets/breakdown-end-light.svg" width="100%">
+</picture>
 
 <br/><br/>
 
@@ -222,3 +235,17 @@ $ tree ~/arsenal
 <br/><br/>
 
 </div>
+
+<details>
+<summary><sub>Reading the breakdown</sub></summary>
+
+- **The shot:** one tower per day of the last 12 months and one row per week, laid out like the contribution calendar (Sunday on the left). A tower is as tall as that day was busy, relative to my busiest day. This week is nearest the camera; the oldest week recedes toward the sun.
+- **The passes:** wireframe, clay, normals and depth are the render passes a CG artist checks before a shot goes out. The opening shot wipes through them to the final beauty pass, the way a breakdown reel does.
+- **The timeline:** one frame per day, from frame 1001 (where shots start) to 1365. Bar heights are daily contributions, and the diamond marks my busiest day.
+- **Comp script:** the year is the background plate. Featured repositories are Read nodes merged over it, each with a material preview in its language colour. The result is graded, then written out as version v101: one version for every active day.
+- **Colour chart:** language share by bytes across public repositories, above a grey ramp.
+- **The end card:** an on-set lighting reference kit, with a grey ball, a chrome ball reflecting the shot's sunset and a colour chart.
+
+<sub>Artwork generated with [README Templates](https://github.com/Dr-At0mic/README-Templates) · template: Breakdown · original animated SVG drawn from my GitHub data. Motion stops if your system asks for reduced motion.</sub>
+
+</details>
