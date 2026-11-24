@@ -11,6 +11,7 @@
 
 <br/><br/>
 
+<a href="#experience">Experience</a> ·
 <a href="#open-source-security">Open Source</a> ·
 <a href="#changelog">Changelog</a> ·
 <a href="#projects">Projects</a> ·
@@ -23,6 +24,31 @@ honeypots, write service-fingerprinting modules for **OWASP Nettacker**, and har
 **The Honeynet Project's** ochi, the live UI for Glutton honeypot events. On the research side I
 test ML claims against hard limits, from catching byzantine nodes in multi-party computation to
 predicting antibiotic resistance across hospitals.
+
+---
+
+## Experience
+
+<table>
+<tr>
+<td width="170" align="center" valign="middle">
+<img src="profile/logos/grsoft.png" width="150" alt="grsoft · Great Research Software Solutions" />
+</td>
+<td valign="top">
+
+**SDE Intern** · Great Research Software Solutions &nbsp;<sub>`Jan 2026 → Mar 2026` · `Noida, India`</sub>
+
+Co-designed the end-to-end N-tier specification for a **UK-regulated remittance platform**.
+
+- **63 user stories, 6 architecture layers, zero circular dependencies** across the specification.
+- **6 swappable vendor interfaces, zero vendor lock-in:** built and unit-tested the compliance logic against mocks before any vendor contract closed.
+- **Zero ambiguous transaction states:** modelled the transfer engine as an explicit state machine, with every transition audit-logged.
+
+`N-tier Architecture` · `Remittance` · `Compliance` · `State Machines`
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -68,6 +94,7 @@ predicting antibiotic resistance across hospitals.
 + [2026-10]  honeynet/ochi · #206 merged → hardened the GitHub Actions workflows
 + [2026-10]  honeynet/ochi · #169 merged → events from unregistered sensors rejected
 + [2026-10]  honeynet/ochi · #167 merged → bearer auth moved to go-chi/jwtauth
++ [2026-03]  Completed SDE internship · Great Research Software Solutions, Noida
 ! [review]   OWASP/Nettacker #1930 · prometheus_version_scan
 ! [review]   honeynet/ochi #237 · generated secrets instead of shipped defaults
 ```
