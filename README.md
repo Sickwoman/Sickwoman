@@ -19,7 +19,7 @@
 
 </div>
 
-Second-year student who builds traps for attackers and the tools that watch them. I run cloud
+Third-year student who builds traps for attackers and the tools that watch them. I run cloud
 honeypots, write service-fingerprinting modules for **OWASP Nettacker**, and harden and extend
 **The Honeynet Project's** ochi, the live UI for Glutton honeypot events. On the research side I
 test ML claims against hard limits, from catching byzantine nodes in multi-party computation to
