@@ -1,59 +1,207 @@
-<p align="center">
-  <img src="./profile/banner.svg" width="100%" alt="The Grimoire of Moksh — a 2nd-year summoner of cybersecurity, machine learning and arcane algorithms." />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://linkedin.com/in/moksh-vatsa-a34885404"><img src="https://img.shields.io/badge/LinkedIn-140D0F?style=for-the-badge&logo=linkedin&logoColor=FF4D4F" alt="LinkedIn" /></a>
-  <a href="mailto:vatsamoksh@gmail.com"><img src="https://img.shields.io/badge/Email-140D0F?style=for-the-badge&logo=gmail&logoColor=FF4D4F" alt="Email" /></a>
-  <a href="https://instagram.com/notmytypebruhh"><img src="https://img.shields.io/badge/Instagram-140D0F?style=for-the-badge&logo=instagram&logoColor=FF4D4F" alt="Instagram" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Sickwoman&label=SOULS%20SEEN&color=ff4d4f&style=for-the-badge" alt="Souls seen" />
-</p>
+<img src="profile/header.svg" width="860" alt="MOKSH VATSA · honeypots // network recon // open-source security // ML research" />
 
-## § I · whoami
+<br/>
 
-```python
-#  grimoire://moksh — page 1 of ∞
-class Moksh(Hacker):
-    year     = "2nd-year student"
-    affinity = ["cybersecurity", "machine learning", "DSA in Python"]
-    spells   = ["cloud honeypots", "network recon", "MAC evasion"]
-    training = ["Rust"]
-    hobby    = "surfing the internet"
+<img src="https://img.shields.io/badge/OWASP_NETTACKER-CONTRIBUTOR-000000?style=flat-square&labelColor=140D0F&color=FF4D4F" alt="OWASP Nettacker contributor" />
+<img src="https://img.shields.io/badge/HONEYNET_OCHI-CONTRIBUTOR-000000?style=flat-square&labelColor=140D0F&color=D9B45A" alt="honeynet/ochi contributor" />
+<img src="https://img.shields.io/badge/BASED_IN-INDIA-000000?style=flat-square&labelColor=140D0F&color=6E3A3C" alt="Based in India" />
+<img src="https://komarev.com/ghpvc/?username=Sickwoman&color=ff4d4f&style=flat-square&label=VISITORS+LOGGED" alt="Profile views" />
+
+<br/><br/>
+
+<a href="#open-source-security">Open Source</a> ·
+<a href="#changelog">Changelog</a> ·
+<a href="#projects">Projects</a> ·
+<a href="#arsenal">Arsenal</a>
+
+</div>
+
+Second-year student who builds traps for attackers and the tools that watch them. I run cloud
+honeypots, write service-fingerprinting modules for **OWASP Nettacker**, and harden and extend
+**The Honeynet Project's** ochi, the live UI for Glutton honeypot events. On the research side I
+test ML claims against hard limits, from catching byzantine nodes in multi-party computation to
+predicting antibiotic resistance across hospitals.
+
+---
+
+## Open Source Security
+
+<img src="https://github.com/OWASP.png?size=80" width="32" height="32" align="middle" alt="" />&nbsp; **[OWASP/Nettacker](https://github.com/OWASP/Nettacker)** · automated penetration testing and vulnerability scanning framework &nbsp;<a href="https://github.com/OWASP/Nettacker/pulls?q=is%3Apr+is%3Amerged+author%3ASickwoman"><img src="https://img.shields.io/github/issues-search?query=repo%3AOWASP%2FNettacker%20is%3Apr%20is%3Amerged%20author%3ASickwoman&label=PRS%20MERGED&style=flat-square&labelColor=140D0F&color=FF4D4F&logo=github&logoColor=white" align="middle" alt="PRs merged in OWASP Nettacker" /></a>
+
+> **Version fingerprinting modules and port-scan coverage** · <sub>`#1832` · `#1878` · `#1890` · `Nov 2026`</sub>
+>
+> Wrote `grafana_version_scan` and `plex_version_scan`. Each reads the version from the service's
+> unauthenticated endpoint (`/api/health`, `/identity`) and reports it as a fingerprint, with no CVE
+> claim attached. Then fixed a coverage gap: port scan only probed Nmap's default port list, and with
+> service discovery on, Nettacker drops every module whose port it didn't find. Modules on seven
+> default ports never ran, including three CISA KEV checks (SonicWall SSL-VPN, Langflow, SmarterMail).
+> Port scan now probes every module's default port.
+>
+> <sub>In review: `prometheus_version_scan` (#1930)</sub>
+
+<img src="https://github.com/honeynet.png?size=80" width="32" height="32" align="middle" alt="" />&nbsp; **[honeynet/ochi](https://github.com/honeynet/ochi)** · The Honeynet Project's live UI for Glutton honeypot events &nbsp;<a href="https://github.com/honeynet/ochi/pulls?q=is%3Apr+is%3Amerged+author%3ASickwoman"><img src="https://img.shields.io/github/issues-search?query=repo%3Ahoneynet%2Fochi%20is%3Apr%20is%3Amerged%20author%3ASickwoman&label=PRS%20MERGED&style=flat-square&labelColor=140D0F&color=D9B45A&logo=github&logoColor=white" align="middle" alt="PRs merged in honeynet/ochi" /></a>
+
+> **Authentication, sensor trust and CI hardening, plus query-language features** · <sub>`Oct – Nov 2026`</sub>
+>
+> Moved bearer auth onto `go-chi/jwtauth`, so a refused token now answers `401` instead of `500`
+> (#167). Made the server reject events from unregistered sensors, checking the full sensor UUID
+> rather than the 8-character display prefix, which would have been enough to impersonate one (#169).
+> Gave the Actions workflows `permissions:` blocks, credential-free checkouts, timeouts and
+> cancellation of superseded runs (#206). In the query DSL: `payload matches "<regex>"` (#219), plus
+> scanner and transport filters (#194, #172).
+>
+> <sub>In review: generate secrets instead of shipping the default `jwt_secret` and `publish_token` (#237) · accept the publish token from a header, not just the URL (#201)</sub>
+
+---
+
+## Changelog
+
+```diff
+@@ sickwoman — recent activity @@
++ [2026-11]  OWASP/Nettacker · #1878 merged → plex_version_scan module
++ [2026-11]  OWASP/Nettacker · #1890 merged → port scan probes every module's default port
++ [2026-11]  honeypot-framework · #13 → Docker stack now turns Cowrie attacks into alerts, demo kit
++ [2026-11]  OWASP/Nettacker · #1832 merged → grafana_version_scan module
++ [2026-11]  honeynet/ochi · #219 merged → payload matches "<regex>" in the query DSL
++ [2026-10]  honeynet/ochi · #206 merged → hardened the GitHub Actions workflows
++ [2026-10]  honeynet/ochi · #169 merged → events from unregistered sensors rejected
++ [2026-10]  honeynet/ochi · #167 merged → bearer auth moved to go-chi/jwtauth
+! [review]   OWASP/Nettacker #1930 · prometheus_version_scan
+! [review]   honeynet/ochi #237 · generated secrets instead of shipped defaults
 ```
 
-## § II · spellbook
+---
+
+## Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ❯ [MPC Node Threat Detection](https://github.com/Sickwoman/MPC-node-threat-detection)
+
+A passive, share-free network monitor for multi-party computation. Over 100 real 3-party sessions it
+catches dropped and duplicated messages with precision 1.00 and zero false positives, even under TLS.
+It also maps the limit: a tampered Shamir share is statistically identical to an honest one, so
+detection there is 0% and cryptographic malicious security has to take over.
+
+`MPC` · `Network Monitoring` · `ML` · `Python`
+
+</td>
+<td width="50%" valign="top">
+
+### ❯ [Antibiotic Resistance AI](https://github.com/Sickwoman/antibiotic-resistance-ai)
+
+Research prototype that predicts antibiotic resistance from MALDI-TOF mass spectra (DRIAMS), focused
+on whether models hold up across hospitals and over time. The frozen ciprofloxacin model was evaluated
+once, under a pre-registration, on an independent hospital's public data. Not a clinical tool.
+
+`ML Research` · `Generalization` · `Python`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ❯ [Honeypot Framework](https://github.com/Sickwoman/honeypot-framework)
+
+Cloud-native honeypot deployment: Cowrie SSH and OpenCanary decoys feeding an Elasticsearch, Logstash
+and Kibana pipeline, with modular Terraform for multi-region AWS and an attack-simulation harness that
+exercises the whole detection path locally.
+
+`Honeypots` · `ELK` · `Terraform` · `AWS`
+
+</td>
+<td width="50%" valign="top">
+
+### ❯ [SOC & Forensics Worklet Program](https://github.com/Sickwoman/soc-forensics-worklet-program)
+
+A 12-week lab program in ten worklets, each built as documentation, a prototype and a working model:
+pfSense with Snort, VLAN zero trust on VyOS, WireGuard, a Wazuh/ELK SIEM, OpenVAS, FreeIPA with MFA,
+a ModSecurity WAF, then memory, disk and network forensics with Volatility 3, Autopsy and Wireshark.
+
+`SOC` · `DFIR` · `Network Defense`
+
+</td>
+</tr>
+</table>
+
+**Also:**
+[MAC Changer](https://github.com/Sickwoman/mac-changer-device-repo) (Kali, random MACs, timed rotation) ·
+[Network Scanner](https://github.com/Sickwoman/network_scanner) ·
+[Rust Learning](https://github.com/Sickwoman/Rust-learning-)
+
+---
+
+## Arsenal
+
+```console
+$ tree ~/arsenal
+~/arsenal
+├── honeypots/     Cowrie, OpenCanary, Glutton events, ELK pipelines, alerting
+├── recon/         service fingerprinting, port scanning, OWASP Nettacker modules
+├── appsec/        auth and token handling, secret defaults, CI / Actions hardening
+├── ml-research/   scikit-learn, TensorFlow / Keras, generalization and calibration
+└── infra/         Terraform, AWS, Docker, GitHub Actions
+```
 
 <p align="center">
-  <a href="https://github.com/Sickwoman/honeypot-framework"><img src="./profile/pin-honeypot-framework.svg" width="49%" alt="honeypot-framework" /></a>
-  <a href="https://github.com/Sickwoman/mac-changer-device-repo"><img src="./profile/pin-mac-changer-device-repo.svg" width="49%" alt="mac-changer-device-repo" /></a>
-  <a href="https://github.com/Sickwoman/network_scanner"><img src="./profile/pin-network_scanner.svg" width="49%" alt="network_scanner" /></a>
-  <a href="https://github.com/Sickwoman/GeoDnsScanner"><img src="./profile/pin-GeoDnsScanner.svg" width="49%" alt="GeoDnsScanner" /></a>
+<img src="https://img.shields.io/badge/Python-140D0F?style=flat-square&logo=python&logoColor=D9B45A" alt="Python" />
+<img src="https://img.shields.io/badge/Go-140D0F?style=flat-square&logo=go&logoColor=D9B45A" alt="Go" />
+<img src="https://img.shields.io/badge/C-140D0F?style=flat-square&logo=c&logoColor=D9B45A" alt="C" />
+<img src="https://img.shields.io/badge/TypeScript-140D0F?style=flat-square&logo=typescript&logoColor=D9B45A" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Bash-140D0F?style=flat-square&logo=gnubash&logoColor=D9B45A" alt="Bash" />
+<img src="https://img.shields.io/badge/HTML5-140D0F?style=flat-square&logo=html5&logoColor=D9B45A" alt="HTML5" />
+<img src="https://img.shields.io/badge/Rust_(training)-FF4D4F?style=flat-square&logo=rust&logoColor=140D0F" alt="Rust (training)" />
 </p>
-
-## § III · arsenal
-
-| | |
-|:--|:--|
-| **TONGUES** | ![Python](https://img.shields.io/badge/Python-140D0F?style=flat-square&logo=python&logoColor=D9B45A) ![C](https://img.shields.io/badge/C-140D0F?style=flat-square&logo=c&logoColor=D9B45A) ![Go](https://img.shields.io/badge/Go-140D0F?style=flat-square&logo=go&logoColor=D9B45A) ![TypeScript](https://img.shields.io/badge/TypeScript-140D0F?style=flat-square&logo=typescript&logoColor=D9B45A) ![Bash](https://img.shields.io/badge/Bash-140D0F?style=flat-square&logo=gnubash&logoColor=D9B45A) ![HTML5](https://img.shields.io/badge/HTML5-140D0F?style=flat-square&logo=html5&logoColor=D9B45A) ![Rust](https://img.shields.io/badge/Rust%20(training)-FF4D4F?style=flat-square&logo=rust&logoColor=140D0F) |
-| **SUMMONS** | ![Terraform](https://img.shields.io/badge/Terraform-140D0F?style=flat-square&logo=terraform&logoColor=D9B45A) ![AWS](https://img.shields.io/badge/AWS-140D0F?style=flat-square&logo=amazonwebservices&logoColor=D9B45A) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-140D0F?style=flat-square&logo=googlecloud&logoColor=D9B45A) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-140D0F?style=flat-square&logo=githubactions&logoColor=D9B45A) ![Git](https://img.shields.io/badge/Git-140D0F?style=flat-square&logo=git&logoColor=D9B45A) |
-| **DIVINATION** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-140D0F?style=flat-square&logo=tensorflow&logoColor=D9B45A) ![Keras](https://img.shields.io/badge/Keras-140D0F?style=flat-square&logo=keras&logoColor=D9B45A) ![scikit-learn](https://img.shields.io/badge/scikit--learn-140D0F?style=flat-square&logo=scikitlearn&logoColor=D9B45A) ![NumPy](https://img.shields.io/badge/NumPy-140D0F?style=flat-square&logo=numpy&logoColor=D9B45A) ![Matplotlib](https://img.shields.io/badge/Matplotlib-140D0F?style=flat-square&logoColor=D9B45A) |
-| **CONSTRUCTS** | ![React](https://img.shields.io/badge/React-140D0F?style=flat-square&logo=react&logoColor=D9B45A) ![Next.js](https://img.shields.io/badge/Next.js-140D0F?style=flat-square&logo=nextdotjs&logoColor=D9B45A) ![Node.js](https://img.shields.io/badge/Node.js-140D0F?style=flat-square&logo=nodedotjs&logoColor=D9B45A) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-140D0F?style=flat-square&logo=postgresql&logoColor=D9B45A) ![MySQL](https://img.shields.io/badge/MySQL-140D0F?style=flat-square&logo=mysql&logoColor=D9B45A) ![Supabase](https://img.shields.io/badge/Supabase-140D0F?style=flat-square&logo=supabase&logoColor=D9B45A) |
-
-## § IV · battle log
-
 <p align="center">
-  <img height="175" alt="Arcane record" src="https://github-readme-stats.vercel.app/api?username=Sickwoman&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&rank_icon=github&title_color=d9b45a&icon_color=ff4d4f&text_color=ece2d4&bg_color=140d0f&border_color=3a2328" />
-  <img height="175" alt="Most used tongues" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sickwoman&layout=compact&langs_count=8&hide_border=false&title_color=d9b45a&text_color=ece2d4&bg_color=140d0f&border_color=3a2328" />
+<img src="https://img.shields.io/badge/Docker-140D0F?style=flat-square&logo=docker&logoColor=D9B45A" alt="Docker" />
+<img src="https://img.shields.io/badge/Elastic-140D0F?style=flat-square&logo=elastic&logoColor=D9B45A" alt="Elastic" />
+<img src="https://img.shields.io/badge/Kali-140D0F?style=flat-square&logo=kalilinux&logoColor=D9B45A" alt="Kali" />
+<img src="https://img.shields.io/badge/Terraform-140D0F?style=flat-square&logo=terraform&logoColor=D9B45A" alt="Terraform" />
+<img src="https://img.shields.io/badge/AWS-140D0F?style=flat-square&logo=amazonwebservices&logoColor=D9B45A" alt="AWS" />
+<img src="https://img.shields.io/badge/Google_Cloud-140D0F?style=flat-square&logo=googlecloud&logoColor=D9B45A" alt="Google Cloud" />
+<img src="https://img.shields.io/badge/GitHub_Actions-140D0F?style=flat-square&logo=githubactions&logoColor=D9B45A" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/Git-140D0F?style=flat-square&logo=git&logoColor=D9B45A" alt="Git" />
 </p>
-
 <p align="center">
-  <img width="100%" alt="A serpent devouring the contribution graph" src="./profile/serpent.svg" />
+<img src="https://img.shields.io/badge/TensorFlow-140D0F?style=flat-square&logo=tensorflow&logoColor=D9B45A" alt="TensorFlow" />
+<img src="https://img.shields.io/badge/Keras-140D0F?style=flat-square&logo=keras&logoColor=D9B45A" alt="Keras" />
+<img src="https://img.shields.io/badge/scikit--learn-140D0F?style=flat-square&logo=scikitlearn&logoColor=D9B45A" alt="scikit-learn" />
+<img src="https://img.shields.io/badge/NumPy-140D0F?style=flat-square&logo=numpy&logoColor=D9B45A" alt="NumPy" />
+<img src="https://img.shields.io/badge/Matplotlib-140D0F?style=flat-square" alt="Matplotlib" />
+<img src="https://img.shields.io/badge/React-140D0F?style=flat-square&logo=react&logoColor=D9B45A" alt="React" />
+<img src="https://img.shields.io/badge/Next.js-140D0F?style=flat-square&logo=nextdotjs&logoColor=D9B45A" alt="Next.js" />
+<img src="https://img.shields.io/badge/Node.js-140D0F?style=flat-square&logo=nodedotjs&logoColor=D9B45A" alt="Node.js" />
+<img src="https://img.shields.io/badge/PostgreSQL-140D0F?style=flat-square&logo=postgresql&logoColor=D9B45A" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/MySQL-140D0F?style=flat-square&logo=mysql&logoColor=D9B45A" alt="MySQL" />
+<img src="https://img.shields.io/badge/Supabase-140D0F?style=flat-square&logo=supabase&logoColor=D9B45A" alt="Supabase" />
 </p>
 
-<p align="center"><sub><b>— THE GRIMOIRE CLOSES —</b><br/><code>&gt; session terminated · thanks for stopping by</code></sub></p>
+---
 
-<!--
-  The serpent above is regenerated from the live contribution graph by
-  .github/workflows/serpent.yml (daily + on push). Until the first run,
-  it shows a hand-authored placeholder serpent committed to profile/serpent.svg.
--->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sickwoman/Sickwoman/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sickwoman/Sickwoman/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man eating through my GitHub contribution graph" src="https://raw.githubusercontent.com/Sickwoman/Sickwoman/output/pacman-contribution-graph-dark.svg" width="860">
+</picture>
+
+<sub>`$ tail -f ~/commits | pacman`</sub>
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com/?user=Sickwoman&hide_border=true&background=140D0F&stroke=3A2328&ring=FF4D4F&fire=FF4D4F&currStreakNum=D9B45A&sideNums=D9B45A&currStreakLabel=FF4D4F&sideLabels=ECE2D4&dates=9F928A" alt="GitHub contribution streak" />
+
+<br/><br/>
+
+<a href="https://linkedin.com/in/moksh-vatsa-a34885404"><img src="https://img.shields.io/badge/LinkedIn-140D0F?style=for-the-badge&logo=linkedin&logoColor=FF4D4F" alt="LinkedIn" /></a>
+<a href="mailto:vatsamoksh@gmail.com"><img src="https://img.shields.io/badge/Email-140D0F?style=for-the-badge&logo=gmail&logoColor=FF4D4F" alt="Email" /></a>
+<a href="https://instagram.com/notmytypebruhh"><img src="https://img.shields.io/badge/Instagram-140D0F?style=for-the-badge&logo=instagram&logoColor=FF4D4F" alt="Instagram" /></a>
+
+<br/><br/>
+
+</div>
