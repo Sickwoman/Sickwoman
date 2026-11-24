@@ -4,10 +4,10 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/OWASP_NETTACKER-CONTRIBUTOR-000000?style=flat-square&labelColor=140D0F&color=FF4D4F" alt="OWASP Nettacker contributor" />
-<img src="https://img.shields.io/badge/HONEYNET_OCHI-CONTRIBUTOR-000000?style=flat-square&labelColor=140D0F&color=D9B45A" alt="honeynet/ochi contributor" />
-<img src="https://img.shields.io/badge/BASED_IN-INDIA-000000?style=flat-square&labelColor=140D0F&color=6E3A3C" alt="Based in India" />
-<img src="https://komarev.com/ghpvc/?username=Sickwoman&color=ff4d4f&style=flat-square&label=VISITORS+LOGGED" alt="Profile views" />
+<img src="https://img.shields.io/badge/OWASP_NETTACKER-CONTRIBUTOR-000000?style=flat-square&labelColor=0D1024&color=A78BFA" alt="OWASP Nettacker contributor" />
+<img src="https://img.shields.io/badge/HONEYNET_OCHI-CONTRIBUTOR-000000?style=flat-square&labelColor=0D1024&color=60A5FA" alt="honeynet/ochi contributor" />
+<img src="https://img.shields.io/badge/BASED_IN-INDIA-000000?style=flat-square&labelColor=0D1024&color=4338CA" alt="Based in India" />
+<img src="https://komarev.com/ghpvc/?username=Sickwoman&color=a78bfa&style=flat-square&label=VISITORS+LOGGED" alt="Profile views" />
 
 <br/><br/>
 
@@ -28,7 +28,7 @@ predicting antibiotic resistance across hospitals.
 
 ## Open Source Security
 
-<img src="https://github.com/OWASP.png?size=80" width="32" height="32" align="middle" alt="" />&nbsp; **[OWASP/Nettacker](https://github.com/OWASP/Nettacker)** · automated penetration testing and vulnerability scanning framework &nbsp;<a href="https://github.com/OWASP/Nettacker/pulls?q=is%3Apr+is%3Amerged+author%3ASickwoman"><img src="https://img.shields.io/github/issues-search?query=repo%3AOWASP%2FNettacker%20is%3Apr%20is%3Amerged%20author%3ASickwoman&label=PRS%20MERGED&style=flat-square&labelColor=140D0F&color=FF4D4F&logo=github&logoColor=white" align="middle" alt="PRs merged in OWASP Nettacker" /></a>
+<img src="https://github.com/OWASP.png?size=80" width="32" height="32" align="middle" alt="" />&nbsp; **[OWASP/Nettacker](https://github.com/OWASP/Nettacker)** · automated penetration testing and vulnerability scanning framework &nbsp;<a href="https://github.com/OWASP/Nettacker/pulls?q=is%3Apr+is%3Amerged+author%3ASickwoman"><img src="https://img.shields.io/github/issues-search?query=repo%3AOWASP%2FNettacker%20is%3Apr%20is%3Amerged%20author%3ASickwoman&label=PRS%20MERGED&style=flat-square&labelColor=0D1024&color=A78BFA&logo=github&logoColor=white" align="middle" alt="PRs merged in OWASP Nettacker" /></a>
 
 > **Version fingerprinting modules and port-scan coverage** · <sub>`#1832` · `#1878` · `#1890` · `Nov 2026`</sub>
 >
@@ -41,7 +41,7 @@ predicting antibiotic resistance across hospitals.
 >
 > <sub>In review: `prometheus_version_scan` (#1930)</sub>
 
-<img src="https://github.com/honeynet.png?size=80" width="32" height="32" align="middle" alt="" />&nbsp; **[honeynet/ochi](https://github.com/honeynet/ochi)** · The Honeynet Project's live UI for Glutton honeypot events &nbsp;<a href="https://github.com/honeynet/ochi/pulls?q=is%3Apr+is%3Amerged+author%3ASickwoman"><img src="https://img.shields.io/github/issues-search?query=repo%3Ahoneynet%2Fochi%20is%3Apr%20is%3Amerged%20author%3ASickwoman&label=PRS%20MERGED&style=flat-square&labelColor=140D0F&color=D9B45A&logo=github&logoColor=white" align="middle" alt="PRs merged in honeynet/ochi" /></a>
+<img src="https://github.com/honeynet.png?size=80" width="32" height="32" align="middle" alt="" />&nbsp; **[honeynet/ochi](https://github.com/honeynet/ochi)** · The Honeynet Project's live UI for Glutton honeypot events &nbsp;<a href="https://github.com/honeynet/ochi/pulls?q=is%3Apr+is%3Amerged+author%3ASickwoman"><img src="https://img.shields.io/github/issues-search?query=repo%3Ahoneynet%2Fochi%20is%3Apr%20is%3Amerged%20author%3ASickwoman&label=PRS%20MERGED&style=flat-square&labelColor=0D1024&color=60A5FA&logo=github&logoColor=white" align="middle" alt="PRs merged in honeynet/ochi" /></a>
 
 > **Authentication, sensor trust and CI hardening, plus query-language features** · <sub>`Oct – Nov 2026`</sub>
 >
@@ -148,59 +148,49 @@ $ tree ~/arsenal
 ```
 
 <p align="center">
-<img src="https://img.shields.io/badge/Python-140D0F?style=flat-square&logo=python&logoColor=D9B45A" alt="Python" />
-<img src="https://img.shields.io/badge/Go-140D0F?style=flat-square&logo=go&logoColor=D9B45A" alt="Go" />
-<img src="https://img.shields.io/badge/C-140D0F?style=flat-square&logo=c&logoColor=D9B45A" alt="C" />
-<img src="https://img.shields.io/badge/TypeScript-140D0F?style=flat-square&logo=typescript&logoColor=D9B45A" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Bash-140D0F?style=flat-square&logo=gnubash&logoColor=D9B45A" alt="Bash" />
-<img src="https://img.shields.io/badge/HTML5-140D0F?style=flat-square&logo=html5&logoColor=D9B45A" alt="HTML5" />
-<img src="https://img.shields.io/badge/Rust_(training)-FF4D4F?style=flat-square&logo=rust&logoColor=140D0F" alt="Rust (training)" />
+<img src="https://img.shields.io/badge/Python-0D1024?style=flat-square&logo=python&logoColor=60A5FA" alt="Python" />
+<img src="https://img.shields.io/badge/Go-0D1024?style=flat-square&logo=go&logoColor=60A5FA" alt="Go" />
+<img src="https://img.shields.io/badge/C-0D1024?style=flat-square&logo=c&logoColor=60A5FA" alt="C" />
+<img src="https://img.shields.io/badge/TypeScript-0D1024?style=flat-square&logo=typescript&logoColor=60A5FA" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Bash-0D1024?style=flat-square&logo=gnubash&logoColor=60A5FA" alt="Bash" />
+<img src="https://img.shields.io/badge/HTML5-0D1024?style=flat-square&logo=html5&logoColor=60A5FA" alt="HTML5" />
+<img src="https://img.shields.io/badge/Rust_(training)-A78BFA?style=flat-square&logo=rust&logoColor=0D1024" alt="Rust (training)" />
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/Docker-140D0F?style=flat-square&logo=docker&logoColor=D9B45A" alt="Docker" />
-<img src="https://img.shields.io/badge/Elastic-140D0F?style=flat-square&logo=elastic&logoColor=D9B45A" alt="Elastic" />
-<img src="https://img.shields.io/badge/Kali-140D0F?style=flat-square&logo=kalilinux&logoColor=D9B45A" alt="Kali" />
-<img src="https://img.shields.io/badge/Terraform-140D0F?style=flat-square&logo=terraform&logoColor=D9B45A" alt="Terraform" />
-<img src="https://img.shields.io/badge/AWS-140D0F?style=flat-square&logo=amazonwebservices&logoColor=D9B45A" alt="AWS" />
-<img src="https://img.shields.io/badge/Google_Cloud-140D0F?style=flat-square&logo=googlecloud&logoColor=D9B45A" alt="Google Cloud" />
-<img src="https://img.shields.io/badge/GitHub_Actions-140D0F?style=flat-square&logo=githubactions&logoColor=D9B45A" alt="GitHub Actions" />
-<img src="https://img.shields.io/badge/Git-140D0F?style=flat-square&logo=git&logoColor=D9B45A" alt="Git" />
+<img src="https://img.shields.io/badge/Docker-0D1024?style=flat-square&logo=docker&logoColor=60A5FA" alt="Docker" />
+<img src="https://img.shields.io/badge/Elastic-0D1024?style=flat-square&logo=elastic&logoColor=60A5FA" alt="Elastic" />
+<img src="https://img.shields.io/badge/Kali-0D1024?style=flat-square&logo=kalilinux&logoColor=60A5FA" alt="Kali" />
+<img src="https://img.shields.io/badge/Terraform-0D1024?style=flat-square&logo=terraform&logoColor=60A5FA" alt="Terraform" />
+<img src="https://img.shields.io/badge/AWS-0D1024?style=flat-square&logo=amazonwebservices&logoColor=60A5FA" alt="AWS" />
+<img src="https://img.shields.io/badge/Google_Cloud-0D1024?style=flat-square&logo=googlecloud&logoColor=60A5FA" alt="Google Cloud" />
+<img src="https://img.shields.io/badge/GitHub_Actions-0D1024?style=flat-square&logo=githubactions&logoColor=60A5FA" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/Git-0D1024?style=flat-square&logo=git&logoColor=60A5FA" alt="Git" />
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/TensorFlow-140D0F?style=flat-square&logo=tensorflow&logoColor=D9B45A" alt="TensorFlow" />
-<img src="https://img.shields.io/badge/Keras-140D0F?style=flat-square&logo=keras&logoColor=D9B45A" alt="Keras" />
-<img src="https://img.shields.io/badge/scikit--learn-140D0F?style=flat-square&logo=scikitlearn&logoColor=D9B45A" alt="scikit-learn" />
-<img src="https://img.shields.io/badge/NumPy-140D0F?style=flat-square&logo=numpy&logoColor=D9B45A" alt="NumPy" />
-<img src="https://img.shields.io/badge/Matplotlib-140D0F?style=flat-square" alt="Matplotlib" />
-<img src="https://img.shields.io/badge/React-140D0F?style=flat-square&logo=react&logoColor=D9B45A" alt="React" />
-<img src="https://img.shields.io/badge/Next.js-140D0F?style=flat-square&logo=nextdotjs&logoColor=D9B45A" alt="Next.js" />
-<img src="https://img.shields.io/badge/Node.js-140D0F?style=flat-square&logo=nodedotjs&logoColor=D9B45A" alt="Node.js" />
-<img src="https://img.shields.io/badge/PostgreSQL-140D0F?style=flat-square&logo=postgresql&logoColor=D9B45A" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/MySQL-140D0F?style=flat-square&logo=mysql&logoColor=D9B45A" alt="MySQL" />
-<img src="https://img.shields.io/badge/Supabase-140D0F?style=flat-square&logo=supabase&logoColor=D9B45A" alt="Supabase" />
+<img src="https://img.shields.io/badge/TensorFlow-0D1024?style=flat-square&logo=tensorflow&logoColor=60A5FA" alt="TensorFlow" />
+<img src="https://img.shields.io/badge/Keras-0D1024?style=flat-square&logo=keras&logoColor=60A5FA" alt="Keras" />
+<img src="https://img.shields.io/badge/scikit--learn-0D1024?style=flat-square&logo=scikitlearn&logoColor=60A5FA" alt="scikit-learn" />
+<img src="https://img.shields.io/badge/NumPy-0D1024?style=flat-square&logo=numpy&logoColor=60A5FA" alt="NumPy" />
+<img src="https://img.shields.io/badge/Matplotlib-0D1024?style=flat-square" alt="Matplotlib" />
+<img src="https://img.shields.io/badge/React-0D1024?style=flat-square&logo=react&logoColor=60A5FA" alt="React" />
+<img src="https://img.shields.io/badge/Next.js-0D1024?style=flat-square&logo=nextdotjs&logoColor=60A5FA" alt="Next.js" />
+<img src="https://img.shields.io/badge/Node.js-0D1024?style=flat-square&logo=nodedotjs&logoColor=60A5FA" alt="Node.js" />
+<img src="https://img.shields.io/badge/PostgreSQL-0D1024?style=flat-square&logo=postgresql&logoColor=60A5FA" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/MySQL-0D1024?style=flat-square&logo=mysql&logoColor=60A5FA" alt="MySQL" />
+<img src="https://img.shields.io/badge/Supabase-0D1024?style=flat-square&logo=supabase&logoColor=60A5FA" alt="Supabase" />
 </p>
 
 ---
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sickwoman/Sickwoman/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sickwoman/Sickwoman/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man eating through my GitHub contribution graph" src="https://raw.githubusercontent.com/Sickwoman/Sickwoman/output/pacman-contribution-graph-dark.svg" width="860">
-</picture>
-
-<sub>`$ tail -f ~/commits | pacman`</sub>
+<img src="https://streak-stats.demolab.com/?user=Sickwoman&hide_border=true&background=0D1024&stroke=2B3163&ring=A78BFA&fire=A78BFA&currStreakNum=60A5FA&sideNums=60A5FA&currStreakLabel=A78BFA&sideLabels=E2E8F7&dates=8B95C9" alt="GitHub contribution streak" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=Sickwoman&hide_border=true&background=140D0F&stroke=3A2328&ring=FF4D4F&fire=FF4D4F&currStreakNum=D9B45A&sideNums=D9B45A&currStreakLabel=FF4D4F&sideLabels=ECE2D4&dates=9F928A" alt="GitHub contribution streak" />
-
-<br/><br/>
-
-<a href="https://linkedin.com/in/moksh-vatsa-a34885404"><img src="https://img.shields.io/badge/LinkedIn-140D0F?style=for-the-badge&logo=linkedin&logoColor=FF4D4F" alt="LinkedIn" /></a>
-<a href="mailto:vatsamoksh@gmail.com"><img src="https://img.shields.io/badge/Email-140D0F?style=for-the-badge&logo=gmail&logoColor=FF4D4F" alt="Email" /></a>
-<a href="https://instagram.com/notmytypebruhh"><img src="https://img.shields.io/badge/Instagram-140D0F?style=for-the-badge&logo=instagram&logoColor=FF4D4F" alt="Instagram" /></a>
+<a href="https://linkedin.com/in/moksh-vatsa-a34885404"><img src="https://img.shields.io/badge/LinkedIn-0D1024?style=for-the-badge&logo=linkedin&logoColor=A78BFA" alt="LinkedIn" /></a>
+<a href="mailto:vatsamoksh@gmail.com"><img src="https://img.shields.io/badge/Email-0D1024?style=for-the-badge&logo=gmail&logoColor=A78BFA" alt="Email" /></a>
+<a href="https://instagram.com/notmytypebruhh"><img src="https://img.shields.io/badge/Instagram-0D1024?style=for-the-badge&logo=instagram&logoColor=A78BFA" alt="Instagram" /></a>
 
 <br/><br/>
 
